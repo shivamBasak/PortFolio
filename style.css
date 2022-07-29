@@ -1,0 +1,107 @@
+body {
+  background-color: #513252;
+}
+
+h1,
+p {
+  color: #FFC18E;
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  color: #FFC18E;
+ 
+  font-family: monospace;
+  font-size: 15px;
+}
+h2{
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+}
+h3{
+  text-align: center;
+  color: rgb(246, 255, 0);
+  font-size: x-large;
+}
+developer:hover {
+  font-weight: bold;
+    font-size: 30px;
+  text-decoration: underline;
+  color: red;
+}
+
+.social-media {
+  padding: 10px 10px;
+  background-color: #7A4069;
+  list-style: none;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0px 4px;
+}
+
+.socail-icon-image {
+  width: 40px;
+}
+
+.about-me {
+  
+  display: inline-flex;
+  padding: 50px;
+  border-radius: 25px;
+  border: solid 2px green;
+  margin-top: 10px;
+  background-color: rgba(202, 78, 121, 0.582);
+}
+
+
+.profile-pic {
+  width: 240px;
+}
+
+
+ /*.bio-data{
+display: inline-block;
+width: 80px;
+} */
+
+
+
+.position-class{
+margin-top: 45px;
+background-color: black;
+height: 750px;
+border-radius: 50px 0px ;
+}
+
+.element1{
+height: 50px;
+width: 50px;
+background-color: red;
+position: absolute;
+z-index: 1;
+margin: 20px 0px 0px 10px;
+}
+
+.element2{
+height: 50px;
+width: 50px;
+background-color: blue;
+position: absolute;
+}
+
+.element3{
+height: 50px;
+width: 50px;
+background-color: yellow;
+position: relative;
+}
