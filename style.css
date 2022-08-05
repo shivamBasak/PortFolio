@@ -1,3 +1,4 @@
+
 body {
   background-color: #513252;
 }
@@ -20,6 +21,11 @@ h2{
   color: red;
   font-size: xx-large;
 }
+.sizeh2{
+  text-align: center;
+  color: rgb(246, 255, 0);
+  font-size: xx-large;
+}
 h3{
   text-align: center;
   color: rgb(246, 255, 0);
@@ -27,7 +33,7 @@ h3{
 }
 developer:hover {
   font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
   text-decoration: underline;
   color: red;
 }
@@ -48,6 +54,10 @@ ul {
 li {
   margin: 0px 4px;
 }
+.certificate{
+  width: 40px;
+
+}
 
 .socail-icon-image {
   width: 40px;
@@ -59,6 +69,14 @@ li {
   padding: 50px;
   border-radius: 25px;
   border: solid 2px green;
+  margin-top: 10px;
+  background-color: rgba(202, 78, 121, 0.582);
+}
+.tech {
+  
+  padding: 50px;
+  border-radius: 25px;
+  border: solid 20px green;
   margin-top: 10px;
   background-color: rgba(202, 78, 121, 0.582);
 }
@@ -80,10 +98,41 @@ width: 80px;
 margin-top: 45px;
 background-color: black;
 height: 750px;
-border-radius: 50px 0px ;
+border-radius: 50px 50px ;
+}
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  length:100px;
+
+  background-color: rgb(196, 27, 27);
+  overflow: auto;
 }
 
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
 .element1{
+ 
 height: 50px;
 width: 50px;
 background-color: red;
@@ -93,15 +142,16 @@ margin: 20px 0px 0px 10px;
 }
 
 .element2{
-height: 50px;
-width: 50px;
-background-color: blue;
+height: 0px;
+width: 0px;
+background-color:#1017c8;
 position: absolute;
 }
 
 .element3{
+
 height: 50px;
 width: 50px;
 background-color: yellow;
-position: relative;
+position: absolute;
 }
