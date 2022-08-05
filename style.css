@@ -54,6 +54,13 @@ ul {
 li {
   margin: 0px 4px;
 }
+.certificatey{
+  padding: 100px;
+  background-color: #7A4069;
+  
+  align-items: center;
+}
+}
 .certificate{
 
   img-size: 40px;
