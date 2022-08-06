@@ -9,7 +9,7 @@ nav {
   padding: 20px;
   text-align: center;
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0px;
 }
 
@@ -103,11 +103,7 @@ li {
   align-items: center;
 }
 
-.certificate{
 
-  img-size: 40px;
-
-}
 
 .socail-icon-image {
   width: 40px;
