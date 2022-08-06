@@ -5,12 +5,12 @@ nav {
   padding: 20px;
   text-align: left;
   width: 100%;
-  position: sticky;
+  position: -webkit-sticky;
   top: 0px;
 }
 
 nav a {
-  color: rgb(247, 234, 234);
+  color: rgb(142, 143, 149);
   text-decoration: none;
   margin: 0px 20px;
   font-size: 1.3em;
