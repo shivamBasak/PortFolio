@@ -5,7 +5,7 @@ body {
   background-color: #0c040c;
 }
 nav {
-  background-color: #2c1acf;
+  background-color: #2715c6;
   padding: 20px;
   text-align: center;
   width: 100%;
@@ -25,25 +25,6 @@ nav a:hover {
 }
 
 
-
-@media
-(prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 11px;
-  }
-}
 
 h1,
 p {
