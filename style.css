@@ -62,7 +62,7 @@ developer:hover {
 
 .social-media {
   padding: 10px 10px;
-  background-color: transparent;
+  background-color: whitesmoke;
   list-style: none;
   align-items: center;
 }
@@ -78,7 +78,7 @@ li {
 }
 .certificatey{
   
-  background-color: #7A4069;
+  background-color: whitesmoke;
   
   align-items: center;
 }
