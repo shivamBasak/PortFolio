@@ -5,7 +5,7 @@ nav {
   padding: 20px;
   text-align: left;
   width: 100%;
-  position: -webkit-sticky;
+  position: sticky;
   top: 0px;
 }
 
