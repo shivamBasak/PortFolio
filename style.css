@@ -1,20 +1,19 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
 body {
   background-color: #0c040c;
 }
 nav {
-  background-color: #2715c6;
+  background-color: #230ee5c4;
   padding: 20px;
   text-align: center;
   width: 100%;
-  position: fixed;
+  position: -webkit-sticky;
   top: 0px;
 }
 
 nav a {
-  color: white;
+  color: rgb(247, 234, 234);
   text-decoration: none;
   margin: 0px 20px;
   font-size: 1.3em;
