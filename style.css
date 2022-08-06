@@ -1,6 +1,48 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
 body {
   background-color: #0c040c;
+}
+nav {
+  background-color: #3a24f0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
 }
 
 h1,
@@ -105,36 +147,8 @@ height: 750px;
 border-radius: 50px 50px ;
 }
 
-.navbar {
-  width: 100%;
-  length:100px;
-
-  background-color: rgb(196, 27, 27);
-  overflow: auto;
-}
 
 
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.navbar a:hover {
-  background-color: #000;
-}
-
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
 .element1{
  
 height: 50px;
@@ -158,30 +172,4 @@ height: 50px;
 width: 50px;
 background-color: yellow;
 position: absolute;
-}
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 60px;
 }
