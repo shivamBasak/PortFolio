@@ -95,10 +95,6 @@ li {
 }
 
 
- /*.bio-data{
-display: inline-block;
-width: 80px;
-} */
 
 
 
@@ -108,7 +104,7 @@ background-color: black;
 height: 750px;
 border-radius: 50px 50px ;
 }
-/* Style the navigation bar */
+
 .navbar {
   width: 100%;
   length:100px;
@@ -168,7 +164,6 @@ position: absolute;
   background-color: #333;
 }
 
-/* Navbar links */
 #navbar a {
   float: left;
   display: block;
@@ -178,12 +173,10 @@ position: absolute;
   text-decoration: none;
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
