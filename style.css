@@ -13,10 +13,11 @@ body {
 }
 
 nav {
-  background-color: #230ee5c4;
+  background-color: solid;
   padding: 20px;
   text-align: left;
   width: 100%;
+  
   position: sticky;
   top: 0;
 }
