@@ -207,11 +207,13 @@ position: absolute;
   left: 0;
   height: 100%;
   width: 100%;
-  background: transparent;
+  background: black;
   border-left: 2px solid #FC6D6D;
   animation: typing 3s steps(10) infinite;
 }
-
+.colour{
+  background-color: black;
+}
 @keyframes typing {
   40%, 60%{
     left: calc(100% + 30px);
