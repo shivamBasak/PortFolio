@@ -163,6 +163,13 @@ width: 50px;
 background-color: yellow;
 position: absolute;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 .wrapper{
   display: flex;
 }
@@ -206,6 +213,7 @@ position: absolute;
   border-left: 2px solid #FC6D6D;
   animation: typing 3s steps(10) infinite;
 }
+
 @keyframes typing {
   40%, 60%{
     left: calc(100% + 30px);
