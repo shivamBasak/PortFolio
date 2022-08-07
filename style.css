@@ -13,7 +13,8 @@ body {
 }
 
 nav {
-  background-color: solid;
+  background-color: blue;
+  background: solid;
   padding: 20px;
   text-align: left;
   width: 100%;
