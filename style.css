@@ -159,7 +159,7 @@ ul {
   height: 100%;
   width: 100%;
   background:black;
-  background: absolute;
+
   border-left: 2px solid #FC6D6D;
   animation: typing 3s steps(10) infinite;
 }
