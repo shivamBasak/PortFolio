@@ -22,21 +22,11 @@
 
     <h1>Shivam Basak</h1>
 
-    <div class="colour">
-    <div class="wrapper">
-        <div class="static-txt">I'm a</div>
+    <div class="container">
+    <h1>I'm <span class="auto-type"></span></h1>
+    </div>
         
-        <ol class="dynamic-txts">
-          <li><span>Developer</span></li>
-          <li><span>Gamer</span></li>
-          <li><span>Book reader</span></li>
-          <li><span>UG at Sister Nivedita University</span></li>
-          <li><span>Engineer</span></li>
-          <li><span>Typical Ambivert</span></li>
-          
-        </ol>
-      </div>
-      </div>
+       
      <div class="social-media">
         <ul>
             <li>
@@ -240,7 +230,12 @@
             
             </div>
         
-    
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed=new Typed(".auto-type",{
+        String:["Developer","UG at SNU","Coader","Engineer"]
+    })
+</script>
         </body>
 
 </html>
