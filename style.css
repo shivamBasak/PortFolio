@@ -28,11 +28,16 @@ nav {
   position: sticky;
   top: 0;
 }
-.bold-text{
-color: bisque;
-position: absolute;
+
+.box-red {
+  color: white;
 }
 
+.box-blue {
+  color: whitesmoke;
+  bottom: 80px;
+  left: 55px;
+}
 
 nav a {
   color: rgb(255, 255, 255);
