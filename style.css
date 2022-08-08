@@ -33,12 +33,14 @@ nav {
   color: white;
 font-size: x-large;
 position: absolute;
+align-items: center;
 }
 
 .box-blue {
   font-size: xx-large;
   color: whitesmoke;
  position: absolute;
+ align-items: center;
 }
 
 nav a {
