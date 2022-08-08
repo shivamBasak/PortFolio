@@ -101,11 +101,6 @@ ul {
 .socail-icon-image {
   width: 40px;
 }
-.socail-icon-image:hover{
-  background-color: rgba(74, 72, 72, 0.057);
-
-}
-
 .about-me {
   
   display: inline-flex;
