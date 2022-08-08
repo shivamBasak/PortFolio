@@ -29,20 +29,7 @@ nav {
   top: 0;
 }
 
-.box-red {
-  color: white;
-font-size: x-large;
-position: absolute;
 
-}
-
-.box-blue {
-    font-size: 0vmax;
-    font-weight: bold;
-  color: whitesmoke;
- position: absolute;
-
-}
 
 nav a {
   color: rgb(255, 255, 255);
