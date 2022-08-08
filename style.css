@@ -6,7 +6,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
+span{
+  color: blue;
+}
 body {
     background: black
   
