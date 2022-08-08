@@ -28,6 +28,11 @@ nav {
   position: sticky;
   top: 0;
 }
+.bold-text{
+color: bisque;
+position: absolute;
+}
+
 
 nav a {
   color: rgb(255, 255, 255);
