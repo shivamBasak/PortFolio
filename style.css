@@ -32,13 +32,13 @@ nav {
 .box-red {
   color: white;
 font-size: x-large;
+position: absolute;
 }
 
 .box-blue {
   font-size: xx-large;
   color: whitesmoke;
-  bottom: 80px;
-  left: 55px;
+ position: absolute;
 }
 
 nav a {
