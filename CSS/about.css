@@ -23,4 +23,23 @@ p {
   font-size: 60px;
   text-align: center;
 }
+.socail-icon-image {
+    width: 40px;
+  }
+  .about-me {
+    
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+  }
+  .tech {
+    
+    padding: 50px;
   
+  }
+  
+  
+  .profile-pic {
+    width: 240px;
+    
+  }
