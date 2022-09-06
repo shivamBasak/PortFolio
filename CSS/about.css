@@ -17,9 +17,9 @@ developer:hover {
     justify-content: space-around;
   }
   
-
+h1,
 p {
-  color: #f5f5f5;
+  color: #0b0101;
   font-size: 60px;
   text-align: center;
 }
