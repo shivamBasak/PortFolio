@@ -31,7 +31,7 @@ nav {
   text-align: left;
   width: 100%;
   
-  position: sticky;
+  position: absolute;
   top: 0;
 }
 
