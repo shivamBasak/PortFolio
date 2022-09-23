@@ -61,7 +61,7 @@ p {
   font-family: monospace;
   font-size: 15px;
 }
-h2{
+h1{
   text-align: center;
   color: blue;
   font-size: xx-large;
@@ -94,6 +94,7 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+    
 }
 
 
