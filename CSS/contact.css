@@ -54,3 +54,32 @@ nav a:hover {
   list-style: none;
   align-items: center;
 }
+
+body {
+  background: black
+
+}
+
+
+h1{
+  text-align: center;
+  color: blue;
+  font-size: xx-large;
+}
+.sizeh2{
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+h3{
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+developer:hover {
+  font-weight: bold;
+    font-size: 40px;
+  text-decoration: underline;
+  color: rgba(17, 0, 255, 0.788);
+}
+
