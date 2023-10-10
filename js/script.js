@@ -36,7 +36,7 @@ ScrollReveal({
     delay: 200
 });
 ScrollReveal().reveal('.home-content, .heading', { origin:'top'});
-ScrollReveal().reveal('.home-img, .project-container,.certificate-box,.contact form', { origin:'bottom'});
+ScrollReveal().reveal('.home-img,.education-content,.skills-column,.project-container,.certificate-box,.contact form', { origin:'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img', { origin:'left'});
 ScrollReveal().reveal('.home-content, .about-content', { origin:'right'});
 
